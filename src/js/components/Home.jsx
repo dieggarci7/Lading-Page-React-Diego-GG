@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
-import Card from "./Card";
+import CardProps from "./CardProps";
 import Footer from "./Footer";
+
 
 const Home = () => {
 return (
-	<div className="container-fluid 100vh p-0">
+	<div className="container-fluid vh-100 p-0">
 		<div>
 			<Navbar />
 			<Jumbotron></Jumbotron>
-			<Card />
+			<CardProps />
 			<Footer />
 		</div>
 	</div>
